@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00555555">
+<LinearLayout
+    android:layout_width="500dp"
+    android:layout_height="1000dp"
+    android:layout_marginTop="-20dp"
+    android:background="#ffffff"
+    tools:ignore="MissingConstraints">
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/google_searching_gif"
+        android:layout_width="500dp"
+        android:layout_height="800dp"
+        android:layout_marginStart="-50dp"
+        android:layout_marginTop="-20dp"
+        android:src="@drawable/google"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/signining"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="630dp"
+      android:layout_marginStart="-350dp"
+        android:text="Connecting . . ."
+        android:textSize="30sp"/>
+</LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Smart Building System</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="profile">Profile</string>
+    <string name="notification">Notify</string>
+    <string name="likes">Favs</string>
+    <string name="happy">Happy</string>
+    <string name="room">Room</string>
+    <string name="restaurant">Food</string>
+    <string name="shop">Shop</string>
+    <string name="photos">Pics</string>
+    <string name="call">Call</string>
+    <string name="default_text">Default Text</string>
+    <string name="top_navigation_bar">Top Navigation Bar</string>
+    <string name="txthome">HOME</string>
+    <string name="start_time">Start Time</string>
+    <string name="schedule">SCHEDULE</string>
+    <string name="add">ADD</string>
+    <string name="select_device">Select Device</string>
+    <string name="end_time">End Time</string>
+    <string name="welcome">WELCOME</string>
+    <string name="google_signIn">Google SignIn</string>
+
+    <string name="otp"><![CDATA[<font color="#000000">We will send you an</font> <font color="#000000"><bold>One Time Password</bold></font> <font color="#0000000">on this mobile number</font>]]></string>
+    <string name="otp1"><![CDATA[<font color="#a3a3a3">Enter Code send to </font> <font color="#000000"> String X</font>]]></string>
+
+</resources>

@@ -1,0 +1,51 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.example.smartbuildingsystem"
+        minSdkVersion 22
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+repositories {
+    maven { url 'https://jitpack.io' }
+}
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    //for snack bar
+    implementation 'com.android.support:design:28.0.0'
+    //noinspection GradleCompatible
+    // implementation 'com.android.support:cardview-v7:26.+'
+
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.+'
+    implementation 'com.mcxiaoke.volley:library:1.0.18'
+
+    // Google Sign in
+    implementation 'com.google.firebase:firebase-auth:16.2.1'
+    implementation 'com.google.android.gms:play-services-auth:16.0.1'
+    //for change google sign in button style
+    implementation 'com.shobhitpuri.custombuttons:google-signin:1.0.0'
+    //glide to show google sign in image to profile image view
+    implementation 'com.github.bumptech.glide:glide:3.8.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+// Chart Dependicy
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+
+}

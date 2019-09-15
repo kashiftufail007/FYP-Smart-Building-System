@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "195347472089",
+    "firebase_url": "https://smarbuildingsystemsignin.firebaseio.com",
+    "project_id": "smarbuildingsystemsignin",
+    "storage_bucket": "smarbuildingsystemsignin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195347472089:android:77364ed9bff8d037",
+        "android_client_info": {
+          "package_name": "com.example.smartbuildingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "195347472089-cm9st40cr1u0923jpl5oagrr9tplrcv4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartbuildingsystem",
+            "certificate_hash": "4cd3161020f41b175546fd78aa3b0745fc3b5564"
+          }
+        },
+        {
+          "client_id": "195347472089-1c6b5b6fp3giuittlrt35jmmup4o1k8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUvovCJ5-CGBU-4_EuO4prbS1w1qCJKw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "195347472089-1c6b5b6fp3giuittlrt35jmmup4o1k8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

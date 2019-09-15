@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".StoragePageActivity">
+    <ImageView
+        android:id="@+id/bgapp"
+        android:layout_width="526dp"
+        android:layout_height="137dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="TODO"
+        android:scaleType="fitXY"
+        android:src="@drawable/bgapp_upper_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.923"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_rect_white"
+        android:elevation="8dp"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="-15dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginBottom="2dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_home"
+            android:drawableTint="@color/red_active"
+            android:padding="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.024"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:id="@+id/schedule"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="-15dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="2dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_timer_black_24dp"
+            android:drawableTint="@color/blue_active"
+            android:padding="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.024"
+            tools:ignore="MissingConstraints" />
+        <!--<Button-->
+            <!--android:id="@+id/rule"-->
+            <!--android:layout_width="45dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_marginStart="-10dp"-->
+            <!--android:layout_marginTop="0dp"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:layout_marginBottom="2dp"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:drawableLeft="@drawable/ic_access_time_black_24dp"-->
+            <!--android:drawableTint="@color/grey_active"-->
+            <!--android:padding="16dp"-->
+            <!--app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintHorizontal_bias="0.0"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toTopOf="parent"-->
+            <!--app:layout_constraintVertical_bias="0.024"-->
+            <!--tools:ignore="MissingConstraints" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/management"-->
+            <!--android:layout_width="45dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_marginStart="-10dp"-->
+            <!--android:layout_marginTop="0dp"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:layout_marginBottom="2dp"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:drawableLeft="@drawable/ic_lightbulb"-->
+            <!--android:drawableTint="@color/orange_active"-->
+            <!--android:padding="16dp"-->
+            <!--app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintHorizontal_bias="0.0"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toTopOf="parent"-->
+            <!--app:layout_constraintVertical_bias="0.024"-->
+            <!--tools:ignore="MissingConstraints" />-->
+        <Button
+            android:id="@+id/chart"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="-3dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="-5dp"
+            android:background="@drawable/storage_background_stroke"
+            android:drawableLeft="@drawable/ic_storage_black"
+            android:drawableTint="@color/green_active"
+            android:padding="16dp"
+            android:text="STORAGE"
+            android:textColor="@color/green_active"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.30"
+            tools:ignore="MissingConstraints" />
+
+
+        <Button
+            android:id="@+id/profile"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="-15dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="2dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_person"
+            android:drawableTint="@color/purple_active"
+            android:padding="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.024"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bgapp">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gif_lightbulb"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="-60dp"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/thermometer"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/temperature_latest_value"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginLeft="-60dp"
+            android:layout_marginTop="20dp"
+            android:inputType="numberDecimal"
+            android:text="N"
+            android:textSize="50sp" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gif_lightbulb2"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/humidity_drop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="-155dp"
+
+            android:text="°C"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/humidity_live_value"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="20dp"
+            android:text="N"
+            android:inputType="numberDecimal"
+            android:textSize="50sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:text="%"
+            android:textSize="50sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:ignore="MissingConstraints">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="28dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+            <TextView
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="20dp"
+                android:text="Temperature Graph"
+                android:textAlignment="center"
+                android:textColor="@color/magenta_active"
+                android:textSize="30sp" />
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/linechart"
+                android:layout_width="match_parent"
+                android:layout_height="350dp">
+            </com.github.mikephil.charting.charts.LineChart>
+
+        </LinearLayout>
+    <LinearLayout
+        android:id="@+id/temperature_time"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="-35dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="28dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+            <TextView
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="-10dp"
+                android:text="Humidity  Graph"
+                android:textAlignment="center"
+                android:textColor="@color/blue_active"
+                android:textSize="30sp" />
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/linechart2"
+                android:layout_width="match_parent"
+                android:layout_height="350dp">
+
+            </com.github.mikephil.charting.charts.LineChart>
+
+
+
+            <LinearLayout
+                android:id="@+id/humidity_time"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="-10dp"
+                android:layout_marginBottom="30dp"
+                android:orientation="horizontal">
+            </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

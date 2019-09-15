@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="375dp"
+    android:layout_marginStart="18dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="0dp"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/rounded_rect_white"
+    android:elevation="8dp"
+    android:padding="16dp"
+    android:weightSum="3"
+    android:layout_height="500dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/red_active"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:text="Home Screen"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:text="•  Click on Button to ON or OF appliances\n• Swap left or right to move to next activity\n• Color of Button will be change"
+
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/blue_active"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:text="Schedule Screen"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"
+        android:text="•  Click on Start or End Button to add time \n• Add schedules will be display in bottom\n• At a  time One schedule per device "
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/green_active"
+        android:textAlignment="center"
+        android:text="Storage Screen"
+        android:layout_marginTop="15dp"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:text="•  Click on Start or End Button to add time \n• Add schedules will be display in bottom\n• At a  time One schedule per device "
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/purple_active"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:text="Profile Screen"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:text="• Can change Password, Profile Name, Phone# and more \n• Only Google Login Picture will be display"
+        />
+</LinearLayout>
+</LinearLayout>
