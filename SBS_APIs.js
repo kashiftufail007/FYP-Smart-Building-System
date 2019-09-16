@@ -165,39 +165,7 @@ app.post('/Add_Schedule_to_DB_API',(req,res,next)=>{
                         }
                         
                     });
-                });                
-                
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                });               
 
 
 
